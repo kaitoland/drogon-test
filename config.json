@@ -65,7 +65,7 @@
         "enable_session": false,
         "session_timeout": 0,
         //document_root: Root path of HTTP document, defaut path is ./
-        "document_root": "./",
+        "document_root": "./index.html",
         //home_page: Set the HTML file of the home page, the default value is "index.html"
         //If there isn't any handler registered to the path "/", the home page file in the "document_root" is send to clients as a response
         //to the request for "/".
@@ -193,9 +193,7 @@
                     "get",
                     "post"
                 ],
-                "filters": [
-                    "FilterClassName"
-                ]
+                "filters": []
             }
         ],
         //idle_connection_timeout: Defaults to 60 seconds, the lifetime 
